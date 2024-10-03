@@ -27,7 +27,7 @@ document.getElementById('searchButton').addEventListener('click', () => {
     }
   
     // Return the result to the popup
-    chrome.runtime.sendMessage({ results });
+    chrome.runtime.sendMessage({ type: 'SEARCH_RESULTS', results });
   }
   
   // Listen for the results and display them
