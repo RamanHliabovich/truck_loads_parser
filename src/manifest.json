@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Table Parser",
+  "version": "1.0",
+  "description": "Parses text inside a table based on search input",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

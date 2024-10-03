@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #searchText {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #searchButton {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #searchButton:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 10px;
+  }
+  
